@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: dTQI0tpYeAv/UwAuVLwkwNMrgsn8hVxxuOii/yRy2kjiGKUjLkuSZTVfGB8Gqmu2VG1v6weYXkMlg7/VH085WqV+kGHhTe00e3D4iKNWWoffrCvd4qZyvGsUdmxVMbZffq0PXlO1iDe6Gvdb3XpNJt59dk/MXE8+2eJo5Z1X2AwXK2MOiK2yw+XCp26jscjVDBjGzeFqMn8CmvE8aIpSvs7d8wi0AsRvjkiRBiuJCOYnODyfR4aGWG2NU+q4cn0+6ntFLROYmSyjlv0pPAr57TFoPVsD4Sczn4RHybb5uM+oiq69hUnefwcpK8VeLH8aAl9ZI8BHmhQBMSAG6RC9kjU4lPufCSBDQie2cwUispaCZYkeOQeT8KiU7O0RMnxpS80w57505WewUk2NmW6PNCbPnPjuYYKcGHD1NBNO1SY1sJkL7Bn8luQr6MxvFBwKLBpUxtqRRLG6dKCdIF+UfKpzq5fNXiaqRLsgoyhwS+/hg9YAy+ySHBjY18a4Pr78oqHkINqeIbnZPhpBsAf/d63X3gW494nTnLmurXIhaezmf9y+jG+kWfXhhQQlh7HVNumGnGRmOvaSmSwdIW5uBwanMLD+QI98tsqq032F6y+LVVZmDrg6M2auorWxjNkJNQX8GTP1UCBZLl5MRQZ6wF1PzbH0r/5ajCJTJeMhj8g=
+  app: evening-beyond-75951
+  on:
+    repo: branotto/node-shopping-list-integration-tests
